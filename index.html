@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300&family=Handjet:wght@300&family=Oswald:wght@200&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+        integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+        integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+    <script src="https://kit.fontawesome.com/a7a7b4759c.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="div-nav">
+
+            <div class="logo">
+                <h1>Piratas</h1>
+            </div>
+
+            <!-- <div class="container">
+                <div class="content">
+                  <div class="content__container">
+                    <p class="content__container__text">
+                      Hello
+                    </p>
+                  
+                    <ul class="content__container__list">
+                      <li class="content__container__list__item">world !</li>
+                      <li class="content__container__list__item">coder !</li>
+                      <li class="content__container__list__item">users !</li>
+                      <li class="content__container__list__item">uiverse</li>
+                    </ul>
+                  </div>
+                </div>
+              </div> -->
+
+            <nav class="nav">
+                <ul>
+                    <li>
+                        <a href="#sobre">
+                            
+                           <span>SOBRE</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#ambiente">
+                           
+                           <span>AMBIENTE</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#redes">
+                            
+                            <span>DEPOIMENTOS</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#depoimentos">
+                           
+                            <span>REDES</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#footer">
+                           
+                            <span>FOOTER</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <section class="slogan">
+            <div class="box-1">
+                <h2>Bem-vindo à Terra dos Chopes Piratas!</h2>
+
+                <p>Bem-vindo à nossa Choperia dos Sete Mares, <br> onde a paixão pelo chopp gelado se une ao espírito
+                    destemido
+                    dos piratas. <br>
+                    Entre e navegue em busca do copo de ouro!
+                </p>
+
+                <button class="button"><span>Entrar</span></button>
+
+            </div>
+
+            <div class="box-2">
+                <span>Piratas</span><i class="fa-solid fa-skull-crossbones" style="color: #000000;"></i>
+            </div>
+        </section>
+
+    </header>
+
+    <main class="conteudo">
+        <section class="section-1" id="sobre">
+            <div class="box-div-1">
+                <div class="box-div">
+                    <div class="div-img">
+                        <img src="./images/canecacerveja.webp" class="img">
+                    </div>
+                    <p>
+                        Delicie-se com o nosso chopp único, destilado com paixão e servido com o sabor autêntico dos
+                        mares bravios.
+                    </p>
+                </div>
+                <div class="box-div">
+                    <div class="div-img">
+                        <img src="./images/petiscos.webp" class="img">
+                    </div>
+                    <p>
+                        Complemente a sua jornada pelos sabores marítimos com nossos petiscos irresistíveis, criados
+                        para serem o parceiro perfeito do seu chopp gelado.
+                    </p>
+                </div>
+                <div class="box-div">
+                    <div class="div-img">
+                        <img src="./images/show.webp" class="img">
+                    </div>
+                    <p>
+                        Embarque em uma experiência completa na nossa choperia, onde os melhores shows ao vivo elevam o
+                        clima e transformam cada gole em uma nota de celebração.
+                    </p>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section class="box-images" id="ambiente">
+            <h2 class="pirata">Embarque no ambiente dos piratas</h2>
+         
+
+            <div class="gallery">
+                <figure class="gallery__item gallery__item--1">
+                    <img src="./images/ambiente1.webp" class="gallery__img" alt="Image 1">
+                </figure>
+                <figure class="gallery__item gallery__item--2">
+                    <img src="./images/show.webp" class="gallery__img" alt="Image 2">
+                </figure>
+                <figure class="gallery__item gallery__item--3">
+                    <img src="./images/ambiente6.jpg" class="gallery__img" alt="Image 3">
+                </figure>
+                <figure class="gallery__item gallery__item--4">
+                    <img src="./images/ambiente7.webp" class="gallery__img" alt="Image 4">
+                </figure>
+                <figure class="gallery__item gallery__item--5">
+                    <img src="./images/ambiente4.jpg" class="gallery__img" alt="Image 5">
+                </figure>
+                <figure class="gallery__item gallery__item--6">
+                    <img src="./images/ambiente5.jpg" class="gallery__img" alt="Image 6">
+                </figure>
+            </div>
+
+        </section>
+
+        <section class="depoimentos" id="depoimentos">
+            <h2>Depoimentos dos náufragos</h2>
+            <div class="box-cards">
+                <div class="card">
+                    <div class="card2">
+                        <div class="div-card">
+                            <img src="./images/pessoa1.webp" class="img-card">
+                            <span>Matheus</span>
+                        </div>
+                        <p>"Os chopes na Piratas são uma verdadeira aventura para o paladar! Cada gole é como descobrir
+                            um novo sabor dos mares. Um brinde ao melhor chopp da cidade!"</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card2">
+                        <div class="div-card">
+                            <img src="./images/pessoa3.webp" class="img-card">
+                            <span>Ronaldo</span>
+                        </div>
+                        <p>"Os petiscos da Piratas são como tesouros gastronômicos. Cada mordida é uma explosão de
+                            sabores que complementam perfeitamente o chopp gelado."</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card2">
+                        <div class="div-card">
+                            <img src="./images/pessoa2.webp" class="img-card">
+                            <span>Fernanda</span>
+                        </div>
+                        <p>"A música ao vivo na Piratas cria uma atmosfera mágica. Cada acorde e nota tornam a
+                            experiência ainda mais emocionante."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    
+
+        <section class="endereco" id="endereco">
+            <h2>Endereço da Loja</h2>
+
+            <div id="map">
+
+            </div>
+
+        </section>
+
+        <section class="rede" id="redes">
+            <h2>Piratas nas redes sociais</h2>
+            <p>
+                Levante a âncora e navegue conosco pelas águas das redes sociais! Siga-nos para descobrir as últimas
+                aventuras piratas, novidades de nossa choperia e brindar com a tripulação virtual. Junte-se à nossa
+                tripulação nas redes sociais e esteja sempre a par das nossas marés de diversão, promoções e eventos
+                emocionantes. Prepare-se para zarpar com a gente!
+
+
+            </p>
+
+            <ul class="wrapper">
+                <li class="icon facebook">
+                    <span class="tooltip">Discord</span>
+                    <span> <i class="fa-brands fa-discord"></i></span>
+                </li>
+                <li class="icon twitter">
+                    <span class="tooltip">Twitter</span>
+                    <span><i class="fa-brands fa-x-twitter"></i></span>
+                </li>
+                <li class="icon instagram">
+                    <span class="tooltip">Instagram</span>
+                    <span><i class="fa-brands fa-instagram"></i></span>
+                </li>
+            </ul>
+        </section>
+
+      
+
+            <section class="avaliacao">
+                <h2>Não esqueça de nos avaliar</h2>
+
+                <div class="rating">
+                    <input value="5" name="rating" id="star5" type="radio">
+                    <label for="star5"></label>
+                    <input value="4" name="rating" id="star4" type="radio">
+                    <label for="star4"></label>
+                    <input value="3" name="rating" id="star3" type="radio">
+                    <label for="star3"></label>
+                    <input value="2" name="rating" id="star2" type="radio">
+                    <label for="star2"></label>
+                    <input value="1" name="rating" id="star1" type="radio">
+                    <label for="star1"></label>
+                </div>
+            </section>
+
+
+           
+
+        <footer class="footer" id="footer">
+            <div class="div-nav-footer">
+
+                <div class="logo-footer">
+                    <h1>Piratas <i class="fa-solid fa-skull-crossbones" style="color: white;"></i></h1>
+
+                    <h3>Cadastra-se para receber mais informações de descontos e outros</h3>
+                    <div class="input-group">
+                        <input placeholder="EMAIL" type="text" id="input-field">
+                        <button class="submit-button"><span>ENVIAR</span></button>
+                        
+                    </div>
+
+                  
+              
+                    
+                </div>
+
+                
+
+                <nav class="nav-footer">
+                    <h3>Informações</h3>
+                    <ul>
+                        <li>
+                            <a>
+                                Perguntas e respostas
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                Dúvidas Gerais
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                Preços
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                Mais detalhes
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                Outros serviços
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <address>
+                    Endereço: Rua dos Piratas, 123, Cidade dos Mares, CEP 12345-678<br>
+                    Telefone: (12) 3456-7890<br>
+                    E-mail: contato@choperiadoss7mares.com
+                </address>
+
+            </div>
+
+        </footer>
+
+
+    </main>
+
+
+    <script type="text/javascript" src="mapa.js"></script>
+
+</body>
+
+</html>
