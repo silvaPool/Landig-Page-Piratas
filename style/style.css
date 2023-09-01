@@ -117,8 +117,6 @@ body {
     height: 50vh;
     padding: 3rem;
     margin-top: 5rem;
-    display: flex;
-    justify-content: space-around;
 }
 
 .slogan .box-1 {
@@ -158,13 +156,10 @@ body {
 }
 
 .slogan .box-1 {
-    background-color: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 1rem;
     border-radius: 1rem;
     border: 2px solid black;
-    transform: skewX(-20deg);
-   
 }
 
 .slogan .box-1 .button span {
@@ -198,24 +193,6 @@ body {
 
 .slogan .box-1 .button:hover::before {
     transform: translate3d(100%, 0, 0);
-}
-
-
-.slogan .box-2 {
-    background-color: rgba(255, 255, 255, 1);
-    color: black;
-    width: 20vw;
-    height: 35vh;
-    border-radius: 50%; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-size: 4rem;
-}
-
-.slogan .box-2:hover {
-    transform: scale(1.1);
 }
 
 
@@ -273,7 +250,7 @@ body {
     /* border thickness */
     --w: 350px;
     /* width of the image */
-    --c: red;
+    --c: blue;
 
     width: var(--w);
     aspect-ratio: 1;
