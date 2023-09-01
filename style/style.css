@@ -607,8 +607,9 @@ REDES SOCIAIS  */
 
 .footer {
     height: 30vh;
-    background-color: black;
+    background: radial-gradient(ellipse farthest-side at 76% 77%, rgba(167, 207, 223, 0.25) 4%, rgba(255, 255, 255, 0) calc(4% + 1px)), radial-gradient(circle at 76% 40%, #c6e0ec 4%, rgba(255, 255, 255, 0) 4.18%), linear-gradient(135deg, #0033cc 0%, #000036 100%), radial-gradient(ellipse at 28% 0%, #b3d9ff 0%, rgba(98, 149, 144, 0.5) 100%), linear-gradient(180deg, #9fc5e8 0%, #c6b18b 69%, #a1a392 70%, #6e91a2 100%);
     padding: 1rem;
+ 
 }
 
 .footer .div-nav-footer {
@@ -617,7 +618,7 @@ REDES SOCIAIS  */
     color: white;
 }
 
-.footer .div-nav-footer .nav-footer {
+/* .footer .div-nav-footer .nav-footer {
     display: flex;
     flex-direction: column;
 }
@@ -635,6 +636,11 @@ REDES SOCIAIS  */
 
 .footer .div-nav-footer .nav-footer ul li a {
     text-decoration: none;
+} */
+
+
+.footer .div-nav-footer > address {
+    width: 20%;
 }
 
 .footer .div-nav-footer .logo-footer>h1 {
